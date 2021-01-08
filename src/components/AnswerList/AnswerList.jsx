@@ -114,9 +114,9 @@ export default class ProductList extends Component {
             <Container>           
                 { seconds === 0
                     ? this.sendAnswer() && <h1>time's up</h1>
-                    : <h1 className="text-white">Time Remaining: 00:{seconds < 10 ? `0${seconds}` : seconds}</h1>   
+                    : <h1 className="text-white mt-4 mb-5">🕒 Time Remaining: 00:{seconds < 10 ? `0${seconds}` : seconds} 🕒</h1>   
                 }
-                <p className="px-5 mt-4 text-white">{this.state.exam.questions[this.state.answer.question].text}</p>
+                <p className="px-5 pt-5 mt-5 text-white">{this.state.exam.questions[this.state.answer.question].text}</p>
                    <Row className="d-flex"> 
                       {this.state.exam.questions[this.state.answer.question].answers.map((e, index)=>
                        <Col md={6} lg={6} >

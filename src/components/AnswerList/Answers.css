@@ -4,7 +4,8 @@
     margin: 10px;
     box-shadow: 3px 3px 20px rgba(70, 69, 69, 0.589);
     color:white;
-    border: 1px solid rgba(68, 68, 68, 0.8);
+    border: 1px solid rgba(68, 68, 68, 0.75);
+    border-left: 6px solid #14ee00;
 }
 .answer-selected-div{
     background-color: #14ee00;
@@ -22,8 +23,9 @@ p{
     border: 1px solid  #14ee00;
     color: black;
     box-shadow: 3px 3px 20px rgba(70, 69, 69, 0.589);
-    padding: 10px 5px;
+    padding: 10px 10px;
     font-weight: 600;
+    font-size: 20px;
     border-radius: 6px;
 }
 .start-exam-button:hover,
@@ -33,7 +35,8 @@ p{
     border: 1px solid  #14ee00;
     color: black;
     box-shadow: 3px 3px 20px rgba(70, 69, 69, 0.589);
-    padding: 10px 5px;
+    padding: 10px 10px;
     font-weight: 600;
     border-radius: 6px;
+    font-size: 20px;
 }
